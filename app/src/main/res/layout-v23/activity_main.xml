@@ -38,22 +38,25 @@
 
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/set_wallpaper"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_gravity="bottom"
-        android:layout_marginBottom="36dp"
+        android:layout_marginBottom="34dp"
         android:layout_toEndOf="@+id/frameLayout1"
         android:layout_toRightOf="@+id/frameLayout1"
         android:clickable="true"
         android:contextClickable="false"
+        android:focusable="true"
+        android:padding="8dp"
         android:text="@string/set_background"
+        android:textAlignment="gravity"
         android:textColor="@color/buttonBackground"
-        android:textSize="8sp"
+        android:textSize="12sp"
         android:textStyle="bold"
         app:backgroundTint="@android:color/holo_orange_dark"
         app:elevation="8dp"
-        app:rippleColor="@color/textColor" android:focusable="true"/>
+        app:rippleColor="@color/textColor" />
 
     <ImageView
         android:id="@+id/imageView"
